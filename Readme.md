@@ -1,6 +1,6 @@
 Bugs Sense
 =====
-[![](https://jitpack.io/v/mahirozdin/MyApplication333.svg)](https://jitpack.io/#mahirozdin/MyApplication333)
+[![](https://jitpack.io/v/mahirozdin/BugsSenseLibrary.svg)](https://jitpack.io/#mahirozdin/BugsSenseLibrary)
 
 Bugs Sense is a free crash tracking application. You can follow the instructions for free at BugsSense.Com. Or directly follow the installation instructions below.
 
@@ -37,3 +37,11 @@ Feedback Handling
         FeedbackHandler fh = new FeedbackHandler();
         fh.sendFeedback("title","content",this);
 ```
+
+How to Track?
+--------
+
+1. Go to https://BugsSense.Com/manager/
+2. Register a new account
+3. Create new app and fill package name correctly
+4. Tracking started!
