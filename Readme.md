@@ -4,6 +4,10 @@ Bugs Sense
 
 Bugs Sense is a free crash tracking application. You can follow the instructions for free at BugsSense.Com. Or directly follow the installation instructions below.
 
+Warning.
+--------
+System and application stability is currently in beta. We recommend that it is not currently used in applications that appeal to real users. We are not responsible for any problems that may occur. Feel free to ask any questions you may have at info@mizanbilisim.com.
+
 How to install.
 --------
 1 - Add to project gradle.
