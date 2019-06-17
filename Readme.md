@@ -22,6 +22,11 @@ allprojects {
 	        implementation 'com.github.mahirozdin:BugsSenseLibrary:0.0.3'
 	}
 ```
+3 - Add to AndroidManifest.xml
+```xml
+ <uses-permission android:name="android.permission.INTERNET" />
+```
+ 
 
 Crash Handling
 --------
