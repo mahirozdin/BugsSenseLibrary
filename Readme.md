@@ -2,7 +2,7 @@ Bugs Sense
 =====
 [![](https://jitpack.io/v/mahirozdin/BugsSenseLibrary.svg)](https://jitpack.io/#mahirozdin/BugsSenseLibrary)
 
-Bugs Sense is a free crash tracking application. You can follow the instructions for free at BugsSense.Com. Or directly follow the installation instructions below.
+Bugs Sense is a free crash tracking library. You can follow the instructions for free at BugsSense.Com. Or directly follow the installation instructions below.
 
 Warning.
 --------
