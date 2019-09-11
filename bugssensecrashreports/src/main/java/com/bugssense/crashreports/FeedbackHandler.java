@@ -18,9 +18,9 @@ import java.util.Map;
 
 public class FeedbackHandler {
     private final String COMMUNICATION_URL = "https://bugssense.com/feedbackAPI.php";
-    public void sendFeedback(final String title, final String content, final Context context){
+    public void sendFeedback(final String title, final String content,final String contact, final Context context){
         final String language =  Locale.getDefault().toString();
-        Log.d("Dil", "language: "+language);
+
 
         final String os = System.getProperty("os.version");        // OS version
         final String apilevel = android.os.Build.VERSION.SDK;     // API LEVEL
@@ -63,6 +63,7 @@ public class FeedbackHandler {
                 params.put("appversion", finalVerCode + "");
                 params.put("os", os + "");
                 params.put("apilevel", apilevel + "");
+                params.put("contact", contact + "");
                 params.put("device", device + "");
                 params.put("model", model + "");
                 return params;

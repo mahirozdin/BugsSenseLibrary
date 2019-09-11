@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FeedbackHandler fh = new FeedbackHandler();
-        fh.sendFeedback("denememe","ramak",this);
+        fh.sendFeedback("title Test","Content Test","ozdinmt@gmail.com",this);
         Thread.UncaughtExceptionHandler defaultUEH = Thread.getDefaultUncaughtExceptionHandler();
         if (!(defaultUEH instanceof ExceptionHandler)) {
             Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(defaultUEH,MainActivity.this));
