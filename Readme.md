@@ -44,7 +44,7 @@ Feedback Handling
 --------
 ```java
         FeedbackHandler fh = new FeedbackHandler();
-        fh.sendFeedback("title","content",this);
+        fh.sendFeedback("title","content","email@email.com",this);
 ```
 
 How to Track?
